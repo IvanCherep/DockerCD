@@ -1,7 +1,7 @@
 name: docker-push
 on:
   push:
-    branches: [ "docker-push-workflow" ]
+    branches: [ "main" ]
 
 jobs:
   build:
